@@ -1,0 +1,170 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+header{
+	font-family: 'Roboto', sans-serif;
+	padding: 20px 0;
+}
+header nav{
+	display: flex;
+	justify-content: flex-end;
+}
+header row, footer row{
+	display: flex;
+	justify-content: center;
+}
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  color: royalblue;
+}
+h2{
+	font-family: 'Roboto' , sans-serif;
+
+}
+.jumbotron{
+	background-image: url("./DSCN0455.JPG");
+	background-size: cover;
+	background-repeat: no-repeat; 
+	height: 750px;
+	width: auto;
+
+}
+
+.jumbotron h2{
+	color:white;
+	font-family: 'Roboto' , sans-serif;
+	font-size: 48px;
+}
+.jumbotron h3{
+	color:white;
+	font-family: 'Roboto' , sans-serif;
+	font-size: 36px;
+}
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+section .row video{
+	margin: 0 0 30px;
+	width: 100%;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: royalblue;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.col-md-6 {
+  margin: 0 0 40px;
+}
+
+.info{
+	font-family: 'Roboto' , sans-serif;
+	margin: 30px;
+	font-size: 18px;
+	font-weight: 300;
+}
+.bold{
+	font-weight: bold;
+	font-size: 20px;
+}
+#profilepic{
+	width:300px;
+	height:auto;
+	display: block;
+	position: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#calculator{
+	height: 500px;
+	width: auto;
+}
+.calculator{
+	background-color: lightgrey;
+	width: 400px;
+	height: 675px; 
+	border: 3px black solid;
+	padding: 15px 15px;
+	margin: 10px auto;
+	font-size: 40px;
+
+
+}
+#display{
+	background-color: white;
+	color: black;
+	width: 370px;
+	height: 100px;
+	text-align: right;
+	font-size: 75px;
+
+}
+.operator, .number{
+	margin: auto;
+	font-size: 40px;
+
+}
+.operator a{
+	display: inline-block;
+	background-color: darkblue;
+	color: white;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin: 15px 5px;
+	font-size: 40px;
+
+}
+
+.number a{
+	display: inline-block;
+	background-color: dodgerblue;
+	color: white;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	margin: 10px 20px;
+	padding: 10px 10px;
+	font-size: 40px;
+
+	
+}
+
+#clear{
+	width:310px;
+	height:auto;
+	background-color: deepskyblue;
+	font-size: 40px;
+
+}
+ footer{
+ 	padding: 20px 0;
+ 	font-size: 12px;
+
+ }
+footer .col-sm-8{
+	display: flex;
+  justify-content: flex-end;
+}
+footer ul{
+	list-style: none;
+}
+
+footer li img{
+	width: 32px;
+	height: 32px;
+	float: right;
+	margin: 0 10px;
+}
+
