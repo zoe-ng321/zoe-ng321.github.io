@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 header{
 	font-family: 'Roboto', sans-serif;
@@ -31,7 +31,7 @@ h2{
 .jumbotron{
 	background-image: url("./DSCN0455.JPG");
 	background-size: cover;
-	background-repeat: no-repeat; 
+	background-repeat: no-repeat;
 	height: 750px;
 	width: auto;
 
@@ -93,7 +93,7 @@ section .row video{
 .calculator{
 	background-color: lightgrey;
 	width: 400px;
-	height: 675px; 
+	height: 675px;
 	border: 3px black solid;
 	padding: 15px 15px;
 	margin: 10px auto;
@@ -138,7 +138,7 @@ section .row video{
 	padding: 10px 10px;
 	font-size: 40px;
 
-	
+
 }
 
 #clear{
@@ -167,4 +167,3 @@ footer li img{
 	float: right;
 	margin: 0 10px;
 }
-
