@@ -78,6 +78,9 @@ section .row video{
 	font-weight: bold;
 	font-size: 20px;
 }
+.centerdiv{
+  text-align: center;
+}
 #profilepic{
 	width:300px;
 	height:auto;
