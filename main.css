@@ -101,6 +101,10 @@ section .row video{
 
 
 }
+#stellarspine{
+  height:500px;
+  width:auto;
+}
 #display{
 	background-color: white;
 	color: black;
