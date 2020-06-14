@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import emoji from '../assets/Emoji.jpg';
+import {BsChevronCompactDown} from "react-icons/bs";
+import {IconContext} from "react-icons";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class About extends Component {
   render(){
@@ -16,6 +19,15 @@ export default class About extends Component {
 			<p>
 				<a href="https://www.linkedin.com/in/zoe-ng-119ba811b/">View my LinkedIn profile</a> or <a href="https://github.com/zoe-ng321">view my Github profile</a>!
 			</p>
+      <Link
+        activeClass="active"
+        to="projects"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}>
+        <IconContext.Provider value={{ size:40 }}><div><BsChevronCompactDown/></div></IconContext.Provider>
+      </Link>
       </div>
     );
   }
