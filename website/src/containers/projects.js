@@ -4,6 +4,9 @@ import stellarspine from '../assets/stellarspine.png';
 import airthoughts from '../assets/AirThoughts.png';
 import mastermind from '../assets/Mastermind.png';
 import chatprogram from '../assets/ChatProgram.png';
+import hangman from '../assets/Hangman.png';
+import nim from '../assets/Nim.png';
+import calculator from '../assets/Calculator.png';
 
 
 export default class Projects extends Component {
@@ -60,6 +63,33 @@ export default class Projects extends Component {
   				<p>EE 422C Partner Project: Used socket programming, multithreading, JavaFX, and the observer design pattern in creating a chat program.
   				The chat program supports 1-1 chat, group chats, and public chats, and works across computers. </p>
   				<p><a href="https://github.com/zoe-ng321/ChatRoomJAR">Github Repository</a></p>
+  			</div>
+        <div>
+  				<h2>Calculator</h2>
+  				<div><img src={calculator} style={{height: 500}}/></div>
+  				<p>Created Calculator using HTML, CSS, and Javascript. </p>
+          <a href="https://github.com/zoe-ng321/Calculator">Github Repository</a>
+  			</div>
+  			<div>
+  				<h2>Hangman Game</h2>
+  				<img src={hangman} style={{width:500}}/>
+  				<p>Created Hangman game using Python.</p>
+          <a href="https://github.com/zoe-ng321/Hangman">Github Repository</a>
+  			</div>
+        <div>
+  				<h2>Nim Game</h2>
+  				<img src={nim} style={{width:500}}/>
+  				<p>Created Nim game using Java and JavaFX. </p>
+          <a href="https://github.com/zoe-ng321/Nim">Github Repository</a>
+  			</div>
+  			<div>
+  				<h2>Room Availability Monitor</h2>
+  				<p>Created a Internet of Things room monitor that shows the availability of conference and phone rooms.
+  				The hardware used includes the ESP8266 WiFi module and a motion sensor. The website consists of
+  				a floor map with the rooms highlighted in green or red, depending on the room status.
+  				Debugged the hardware system to ensure the WiFi module connected to the REST API.
+  				Worked in a team of five during a two day hackathon to develop the system.</p>
+          <br/>
   			</div>
       </div>
     );
