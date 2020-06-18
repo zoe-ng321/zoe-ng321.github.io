@@ -4,12 +4,15 @@ import '../App.css';
 import {BsChevronCompactDown} from "react-icons/bs";
 import {IconContext} from "react-icons";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Typing from 'react-typing-animation';
 
 export default class Home extends Component {
   render(){
     return(
       <div class="container home" id="home">
-        <h1>Hi! My name is Zoe!</h1>
+        <Typing speed={60}>
+          <h1 style={{fontSize: 75, color:'DARKSLATEBLUE'}}>Hi! My name is Zoe!</h1>
+        </Typing>
         <Link
           activeClass="active"
           to="about"

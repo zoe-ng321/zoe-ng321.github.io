@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import { Link, animateScroll as scroll } from "react-scroll";
-import linkedin from "../assets/LinkedIn.png";
-import github from "../assets/Github.png";
+import {IconContext} from "react-icons";
+import { GrGithub, GrLinkedin } from "react-icons/gr";
+
 
 export default class NavBar extends Component {
   render(){
@@ -40,10 +41,8 @@ export default class NavBar extends Component {
         duration={500}>
         <h2>Projects</h2>
       </Link>
-      <div style={{position:"fixed", left: "4%", display:"flex",flexDirection:"row"}}>
-        <a href="https://www.linkedin.com/in/zoe-ng-119ba811b"><img style={{paddingRight: 30}}src={linkedin}/></a>
-        <a href="https://github.com/zoe-ng321"><img src={github}/></a>
-      </div>
+      <IconContext.Provider value={{ size:40, style:{marginBottom: 10}}}><a href="https://www.linkedin.com/in/zoe-ng-119ba811b" style={{color:'black'}}><GrLinkedin/></a></IconContext.Provider>
+      <IconContext.Provider value={{ size:40 }}><a href="https://github.com/zoe-ng321" style={{color:'black'}}><div><GrGithub/></div></a></IconContext.Provider>
       </div>
     );
   }

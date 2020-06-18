@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import emoji from '../assets/Emoji.jpg';
+import profile from '../assets/DSC_0174.jpg';
 import {BsChevronCompactDown} from "react-icons/bs";
 import {IconContext} from "react-icons";
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -10,7 +10,7 @@ export default class About extends Component {
     return(
       <div class="container" id="about">
       <h1>About Me</h1>
-      <img class="profile" src={emoji} alt="Profile"></img>
+      <img class="profile" src={profile} alt="Profile"></img>
       <p>My name is Zoe Ng, and I graduated from the University of Texas of Austin with a degree in Electrical and Computer Engineering!
       My technical core was software engineering.</p>
       <p>
