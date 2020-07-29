@@ -10,7 +10,7 @@ export default class About extends Component {
     return(
       <div class="container" id="about">
       <h1>About Me</h1>
-      <img class="profile" src={profile} alt="Profile"></img>
+      <div><img style={{height:300, width: 300}} src={profile} alt="Profile"></img>
       <p>My name is Zoe Ng, and I graduated from the University of Texas of Austin with a degree in Electrical and Computer Engineering!
       My technical core was software engineering.</p>
       <p>
@@ -19,6 +19,7 @@ export default class About extends Component {
 			<p>
 				<a href="https://www.linkedin.com/in/zoe-ng-119ba811b/">View my LinkedIn profile</a> or <a href="https://github.com/zoe-ng321">view my Github profile</a>!
 			</p>
+      </div>
       <Link
         activeClass="active"
         to="projects"
