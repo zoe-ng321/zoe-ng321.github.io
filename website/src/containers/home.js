@@ -5,11 +5,19 @@ import {BsChevronCompactDown} from "react-icons/bs";
 import {IconContext} from "react-icons";
 import { Link, animateScroll as scroll } from "react-scroll";
 import Typing from 'react-typing-animation';
+import Container from 'react-bootstrap/Container';
+import ParticlesBg from 'particles-bg'
+import MouseParticles from 'react-mouse-particles'
+import Button from 'react-bootstrap/Button';
+import Navbar from 'react-bootstrap/Navbar';
+
+
 
 export default class Home extends Component {
   render(){
     return(
-      <div class="container home" id="home">
+      <div>
+      <div class="container" id="home">
         <Typing speed={60}>
           <h1 style={{fontSize: 75, color:'DARKSLATEBLUE'}}>Hi! My name is Zoe!</h1>
         </Typing>
@@ -22,6 +30,7 @@ export default class Home extends Component {
           duration={500}>
           <IconContext.Provider value={{ size:40 }}><div><BsChevronCompactDown/></div></IconContext.Provider>
         </Link>
+      </div>
       </div>
     );
   }

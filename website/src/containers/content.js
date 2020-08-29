@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import Home from './home.js';
 import About from './about.js';
 import Projects from './projects.js';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Experience from './experience.js';
 
 export default class Content extends Component {
   render(){
@@ -10,11 +13,17 @@ export default class Content extends Component {
      window.scrollTo({top: 0, behavior: 'smooth'});
     };
     return(
-      <div class="content">
-        <Home/>
-        <About/>
-        <Projects/>
-      </div>
+      <Container>
+        <Col>
+          <div class="content">
+            <Home/>
+            <About/>
+            <Experience/>
+            <Projects/>
+          </div>
+        </Col>
+      </Container>
+
     );
   }
 }
