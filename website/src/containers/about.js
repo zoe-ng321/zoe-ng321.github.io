@@ -13,7 +13,7 @@ import Container from 'react-bootstrap/Container';
 export default class About extends Component {
   render(){
     return(
-      <div class="container" id="about">
+      <div class="container about" id="about">
       <Row>
         <Col md={4}>
         <Image src={profile} rounded />
@@ -22,11 +22,12 @@ export default class About extends Component {
           <h1>About Me</h1>
           <br/>
           <div>
-            <p>My name is Zoe Ng, and I am currently a Software Engineer at Visa.
+            <p>My name is Zoe Ng, and I am currently a Software Engineer at Visa with a focus on full stack web development.
             I graduated from the University of Texas of Austin with a degree in Electrical and Computer Engineering!
             </p>
             <p>
-  				      When I am not coding, I enjoy cooking and watching TV. I also enjoy listening to music, attending concerts, and bouldering.
+  				      When I am not coding, I enjoy cooking and trying out new recipes. I also attending concerts, bouldering, and traveling
+                to try out new foods!
   			    </p>
       			<p>
       				<a href="https://www.linkedin.com/in/zoe-ng-119ba811b/">View my LinkedIn profile</a> or

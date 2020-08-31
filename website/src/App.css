@@ -11,14 +11,16 @@
   flex: 0 1 auto;
   flex-direction: column;
   justify-content: center;
+  width:100%
 }
 
 .content {
   height: auto;
 }
 
-.nav {
+.navbar{
   width: 100%;
+  height: 8%;
   background-color: LIGHTSKYBLUE;
   position: fixed;
   z-index: 3;
@@ -27,4 +29,19 @@
 .profile{
   height:300px;
   width:300px;
+}
+
+.modal{
+  font-family: 'Montserrat';
+}
+
+.cardbutton{
+  background-color:'#8795FA';
+  border-color:'#8795FA';
+  font-weight:'bold';
+}
+
+.card{
+  width: '19rem';
+  margin-left: '1rem';
 }

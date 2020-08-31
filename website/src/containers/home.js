@@ -17,7 +17,7 @@ export default class Home extends Component {
   render(){
     return(
       <div>
-      <div class="container" id="home">
+      <div class="container home" id="home">
         <Typing speed={60}>
           <h1 style={{fontSize: 75, color:'DARKSLATEBLUE'}}>Hi! My name is Zoe!</h1>
         </Typing>

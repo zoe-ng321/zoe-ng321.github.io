@@ -10,8 +10,7 @@ import Navbar from 'react-bootstrap/Navbar';
 export default class Nav extends Component {
   render(){
     return(
-      <div class="nav">
-        <Navbar style={{width:'100%', height:'8%', backgroundColor: 'LIGHTSKYBLUE'}}>
+        <Navbar className="navbar">
           <Navbar.Brand><h3>Zoe Ng</h3></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -65,7 +64,6 @@ export default class Nav extends Component {
           </IconContext.Provider>
           </Navbar.Collapse>
         </Navbar>
-      </div>
     );
   }
 }
