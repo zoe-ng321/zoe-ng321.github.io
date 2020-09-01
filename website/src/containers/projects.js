@@ -76,7 +76,7 @@ export default class Projects extends Component {
                     </Card.Text>
                     <Button
                       variant="primary"
-                      className='cardbutton'
+                      style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
                       onClick={() => this.handleShow(0)}>
                       Learn More
                     </Button>
@@ -93,7 +93,7 @@ export default class Projects extends Component {
                     </Card.Text>
                     <Button
                       variant="primary"
-                      className='cardbutton'
+                      style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
                       onClick={() => this.handleShow(1)}>
                       Learn More
                     </Button>
@@ -106,11 +106,11 @@ export default class Projects extends Component {
                 <Card.Body>
                     <Card.Title>WiFi Piano</Card.Title>
                     <Card.Text>
-                      A Note-Recording Embedded System Piano
+                      Note-Recording Embedded System Piano
                     </Card.Text>
                     <Button
                       variant="primary"
-                      className='cardbutton'
+                      style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
                       onClick={() => this.handleShow(2)}>
                       Learn More
                     </Button>
@@ -127,7 +127,7 @@ export default class Projects extends Component {
                     </Card.Text>
                     <Button
                       variant="primary"
-                      className='cardbutton'
+                      style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
                       onClick={() => this.handleShow(3)}>
                       Learn More
                     </Button>
@@ -144,7 +144,7 @@ export default class Projects extends Component {
                     </Card.Text>
                     <Button
                       variant="primary"
-                      className='cardbutton'
+                      style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
                       onClick={() => this.handleShow(4)}>
                       Learn More
                     </Button>
@@ -161,7 +161,7 @@ export default class Projects extends Component {
                     </Card.Text>
                     <Button
                       variant="primary"
-                      className='cardbutton'
+                      style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
                       onClick={() => this.handleShow(5)}>
                       Learn More
                     </Button>
@@ -178,7 +178,7 @@ export default class Projects extends Component {
                     </Card.Text>
                     <Button
                       variant="primary"
-                      className='cardbutton'
+                      style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
                       onClick={() => this.handleShow(6)}>
                       Learn More
                     </Button>
@@ -195,7 +195,7 @@ export default class Projects extends Component {
                     </Card.Text>
                     <Button
                       variant="primary"
-                      className='cardbutton'
+                      style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
                       onClick={() => this.handleShow(7)}>
                       Learn More
                     </Button>
@@ -212,7 +212,7 @@ export default class Projects extends Component {
                     </Card.Text>
                     <Button
                       variant="primary"
-                      className='cardbutton'
+                      style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
                       onClick={() => this.handleShow(8)}>
                       Learn More
                     </Button>
@@ -228,7 +228,7 @@ export default class Projects extends Component {
                     </Card.Text>
                     <Button
                       variant="primary"
-                      className='cardbutton'
+                      style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
                       onClick={() => this.handleShow(9)}>
                       Learn More
                     </Button>
@@ -274,6 +274,20 @@ export default class Projects extends Component {
                 The project received first place among the Honors/Entrepreneurial teams.</p>
               <p>I led the effort to create our mobile application which was built with React Native. I set up the app navigation routing,
                 authentication, and various app modules. Additionally, the app uses the Google Firebase Realtime Database and Authentication.</p>
+                <Button
+                  variant="outline-secondary"
+                  disabled={true}
+                  className='skilltag'
+                  style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                  React Native
+                </Button>
+                <Button
+                  variant="outline-secondary"
+                  disabled={true}
+                  className='skilltag'
+                  style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                  Firebase
+                </Button>
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={() => this.handleClose(0)}>
@@ -296,7 +310,23 @@ export default class Projects extends Component {
                Recharts, Flask, MongoDB, RevSpeech API, and the Microsoft Azure
               Text Analysis API. We placed in the top 10 projects overall and won third place for the American
               Airlines challenge, and we developed the project during the 24-hour hackathon.</p>
-              <a href="https://github.com/david-bush/HackTX2018">Github Repository</a></Modal.Body>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                React
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Material UI
+              </Button>
+              <br/><br/>
+              <a href="https://github.com/david-bush/HackTX2018">Github Repository</a>
+            </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={() => this.handleClose(1)}>
                 Close
@@ -315,7 +345,22 @@ export default class Projects extends Component {
               WiFi piano that would allows users to play notes and chords on the piano.
       				Users record the sequence of notes played and send it to a data logging server.
       				I worked on creating the data logging server, the notes, the DAC output, and soldering the components to the PCB.</p>
-      				<a href="https://ee445l-floorpiano.appspot.com">Link to Server</a>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                C
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Python
+              </Button>
+              <br/><br/>
+              <a href="https://ee445l-floorpiano.appspot.com">Link to Server</a><br/>
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={() => this.handleClose(2)}>
@@ -337,6 +382,28 @@ export default class Projects extends Component {
               and can leave reviews. </p>
               <p>I worked on integrating the app with Google Firebase, setting up
               Cloud Firestore noSQL database, and the Favorites activity.</p>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Java
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Android
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Firebase
+              </Button>
+              <br/><br/>
               <a href="https://github.com/dChunGit/UT-Bathroom-Services">Github Repository</a>
             </Modal.Body>
             <Modal.Footer>
@@ -354,6 +421,21 @@ export default class Projects extends Component {
             <Modal.Body>
               <p>Created Mastermind game using Java and JavaFX. Built off of text-based Mastermind
                game written for EE 422C assignment and added JavaFX elements.</p>
+               <Button
+                 variant="outline-secondary"
+                 disabled={true}
+                 className='skilltag'
+                 style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                 Java
+               </Button>
+               <Button
+                 variant="outline-secondary"
+                 disabled={true}
+                 className='skilltag'
+                 style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                 JavaFX
+               </Button>
+               <br/><br/>
               <a href="https://github.com/zoe-ng321/MastermindJar">Github Repository</a>
             </Modal.Body>
             <Modal.Footer>
@@ -372,6 +454,21 @@ export default class Projects extends Component {
               <p>EE 422C Partner Project: Used socket programming, multithreading, JavaFX,
                and the observer design pattern in creating a Java chat program.
       				The chat program supports 1-1 chat, group chats, and public chats, and works across computers. </p>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Java
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                JavaFX
+              </Button>
+              <br/><br/>
       				<p><a href="https://github.com/zoe-ng321/ChatRoomJAR">Github Repository</a></p>
             </Modal.Body>
             <Modal.Footer>
@@ -387,7 +484,29 @@ export default class Projects extends Component {
             </Modal.Header>
             <img src={calculator} style={{width:250, marginLeft: 125}}/>
             <Modal.Body>
-              <p>Created Calculator using HTML, CSS, and Javascript. </p>
+              <p>Created a calculator using HTML, CSS, and Javascript to learn concepts </p>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Javascript
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                HTML
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                CSS
+              </Button>
+              <br/><br/>
               <a href="https://github.com/zoe-ng321/Calculator">Github Repository</a>
             </Modal.Body>
             <Modal.Footer>
@@ -404,6 +523,14 @@ export default class Projects extends Component {
             <img src={hangman} style={{width:500}}/>
             <Modal.Body>
               <p>Created a Hangman game using Python. </p>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Python
+              </Button>
+              <br/><br/>
               <a href="https://github.com/zoe-ng321/Hangman">Github Repository</a>
             </Modal.Body>
             <Modal.Footer>
@@ -420,6 +547,21 @@ export default class Projects extends Component {
             <img src={nim} style={{width:500}}/>
     				<Modal.Body>
               <p>Created a Nim game using Java and JavaFX. </p>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Java
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                JavaFX
+              </Button>
+              <br/><br/>
               <a href="https://github.com/zoe-ng321/Nim">Github Repository</a>
             </Modal.Body>
             <Modal.Footer>
@@ -439,6 +581,27 @@ export default class Projects extends Component {
       				a floor map with the rooms highlighted in green or red, depending on the room status.
       				Debugged the hardware system to ensure the WiFi module connected to the REST API.
       				Worked in a team of five during a two day hackathon to develop the system.</p>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                React
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                C
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Node.js
+              </Button>
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={() => this.handleClose(9)}>

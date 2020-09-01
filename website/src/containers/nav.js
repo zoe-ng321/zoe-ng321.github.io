@@ -11,7 +11,15 @@ export default class Nav extends Component {
   render(){
     return(
         <Navbar className="navbar">
-          <Navbar.Brand><h3>Zoe Ng</h3></Navbar.Brand>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}>
+            <Navbar.Brand><h3>Zoe Ng</h3></Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
           <Link

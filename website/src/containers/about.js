@@ -26,7 +26,7 @@ export default class About extends Component {
             I graduated from the University of Texas of Austin with a degree in Electrical and Computer Engineering!
             </p>
             <p>
-  				      When I am not coding, I enjoy cooking and trying out new recipes. I also attending concerts, bouldering, and traveling
+  				      When I am not coding, I enjoy cooking and experimenting with new recipes. I also attending concerts, bouldering, and traveling
                 to try out new foods!
   			    </p>
       			<p>
