@@ -18,7 +18,7 @@ export default class Nav extends Component {
             smooth={true}
             offset={0}
             duration={500}>
-            <Navbar.Brand><h3>Zoe Ng</h3></Navbar.Brand>
+            <button class="navbutton"><Navbar.Brand><h3>Zoe Ng</h3></Navbar.Brand></button>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -30,7 +30,7 @@ export default class Nav extends Component {
             offset={0}
             duration={500}
             style={{marginTop:'6px'}}>
-            <h5>Home</h5>
+            <button class="navbutton"><h5>Home</h5></button>
           </Link>
           <Link
             activeClass="active"
@@ -40,7 +40,7 @@ export default class Nav extends Component {
             offset={0}
             duration={500}
             style={{marginTop:'6px', marginLeft: '1%'}}>
-            <h5>About</h5>
+            <button class="navbutton"><h5>About</h5></button>
           </Link>
           <Link
             activeClass="active"
@@ -50,7 +50,7 @@ export default class Nav extends Component {
             offset={-100}
             duration={500}
             style={{marginTop:'6px', marginLeft: '1%'}}>
-            <h5>Experience</h5>
+            <button class="navbutton"><h5>Experience</h5></button>
           </Link>
           <Link
             activeClass="active"
@@ -60,7 +60,7 @@ export default class Nav extends Component {
             offset={-100}
             duration={500}
             style={{marginTop:'6px', marginLeft: '1%'}}>
-            <h5>Projects</h5>
+            <button class="navbutton"><h5>Projects</h5></button>
           </Link>
           <IconContext.Provider value={{ size: 30 }}>
             <a href="https://www.linkedin.com/in/zoe-ng-119ba811b" style={{color:'black', marginLeft: '1%'}}>

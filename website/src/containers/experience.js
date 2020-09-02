@@ -34,12 +34,12 @@ export default class Experience extends Component {
             I integrated a Visa API into the Visa Product Portal using Java to allow cardholders to select and view benefits.
             I also implemented a device binding algorithm in the login flow of the Global Marketing Authentication Portal (GMAP)
             to prevent account takeover. I created a customer service tool using Angular and Java to allow admins to find customers’
-            account status. I added a dropdown for US states on US GMAP registration page.
+            account status. I added a dropdown for US states on the US GMAP registration page.
             </p>
             <p>
             In addition to development tasks, I receive on-call alerts, research causes of time-to-interactive spikes on our websites,
             and create Splunk alerts and dashboards. Recently, I mentored a team of interns in the 2020 Visa Global Intern Summer Hackathon,
-            and they won third place overall and first in the US with their solution to help small businesses promote offers.
+            and they won third place globally and first in the US with their solution to help small businesses promote offers.
             </p>
             <Button
               variant="outline-secondary"

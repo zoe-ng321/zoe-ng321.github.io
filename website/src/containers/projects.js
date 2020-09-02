@@ -123,7 +123,7 @@ export default class Projects extends Component {
                 <Card.Body>
                     <Card.Title>UT Bathroom Services</Card.Title>
                     <Card.Text>
-                      Android App for UT Bathroom Reviews
+                       UT Bathroom Reviews App
                     </Card.Text>
                     <Button
                       variant="primary"
@@ -267,7 +267,7 @@ export default class Projects extends Component {
               </Carousel.Item>
             </Carousel>
             <Modal.Body>
-              <p>UT ECE Senior Capstone Design Project: Created a real-time scoliosis
+              <p><b>UT ECE Senior Capstone Design Project:</b> Created a real-time scoliosis
                 brace compliance monitor in a team of 6 over the course of two semesters.
                 The system consists of a sensor and a mobile application, and it allows users to view compliance
                 data in real-time and receive incentives to wear their brace.
@@ -302,14 +302,14 @@ export default class Projects extends Component {
             </Modal.Header>
             <img src={airthoughts} style={{width:498}}/>
             <Modal.Body>
-              <p>HackTX 2018 Project: Worked on a team of five to create a web application that
+              <p><b>HackTX 2018 Project:</b> Worked on a team of five to create a web application that
               identifies and leverages customer sentiments for American Airlines customers in real time.
               The app displays sentiment analysis of live conversations and parses keywords to understand
-              the conversation topic and the sentiment associated with the topic. </p>
+              the conversation topic and the associated sentiment. </p>
               <p>I primarily worked on the UI of the applicaton. The project was created using React, Material UI,
                Recharts, Flask, MongoDB, RevSpeech API, and the Microsoft Azure
               Text Analysis API. We placed in the top 10 projects overall and won third place for the American
-              Airlines challenge, and we developed the project during the 24-hour hackathon.</p>
+              Airlines challenge.</p>
               <Button
                 variant="outline-secondary"
                 disabled={true}
@@ -341,7 +341,7 @@ export default class Projects extends Component {
             <iframe width="498" height="300" src="https://www.youtube.com/embed/DqZtjWEB5SY"
             frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <Modal.Body>
-              <p>EE 445L Final Project: Worked with a partner to create an
+              <p><b>EE 445L Final Project:</b> Worked with a partner to create an
               WiFi piano that would allows users to play notes and chords on the piano.
       				Users record the sequence of notes played and send it to a data logging server.
       				I worked on creating the data logging server, the notes, the DAC output, and soldering the components to the PCB.</p>
@@ -376,7 +376,7 @@ export default class Projects extends Component {
             <iframe width="498" height="300" src="https://www.youtube.com/embed/q3W-MPyDkqY"
             frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <Modal.Body>
-              <p>EE 461L Team Project: Worked in a team of 4 to create an Android
+              <p><b>EE 461L Team Project:</b> Worked in a team of 4 to create an Android
               app that would allows users to find bathrooms and water fountains
               on the UT campus. Users can filter facilities by factors such as location and cleanliness
               and can leave reviews. </p>
@@ -451,7 +451,7 @@ export default class Projects extends Component {
             </Modal.Header>
             <img src={chatprogram} style={{width:500}}/>
             <Modal.Body>
-              <p>EE 422C Partner Project: Used socket programming, multithreading, JavaFX,
+              <p><b>EE 422C Partner Project:</b> Used socket programming, multithreading, JavaFX,
                and the observer design pattern in creating a Java chat program.
       				The chat program supports 1-1 chat, group chats, and public chats, and works across computers. </p>
               <Button
@@ -576,9 +576,9 @@ export default class Projects extends Component {
               <Modal.Title>Room Availability Monitor</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-              <p>Created a Internet of Things room monitor that shows the availability of conference and phone rooms.
+              <p>Created an Internet of Things room monitor that shows the availability of conference and phone rooms.
       				The hardware used includes the ESP8266 WiFi module and a motion sensor. The website consists of
-      				a floor map with the rooms highlighted in green or red, depending on the room status.
+      				a floor map with the rooms highlighted in either green or red, depending on the room status.
       				Debugged the hardware system to ensure the WiFi module connected to the REST API.
       				Worked in a team of five during a two day hackathon to develop the system.</p>
               <Button

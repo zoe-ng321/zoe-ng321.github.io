@@ -52,3 +52,16 @@
   width: '19rem';
   margin-left: '1rem';
 }
+
+.navbutton{
+  background-color: transparent;
+  border: none;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+
+.navbutton:focus{
+  outline: 0;
+}
