@@ -28,7 +28,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Carousel from 'react-bootstrap/Carousel';
 import {BsChevronCompactLeft} from "react-icons/bs";
 import {BsChevronCompactRight} from "react-icons/bs";
-
+import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
 
 export default class Projects extends Component {
   constructor(props, context){
@@ -300,7 +300,11 @@ export default class Projects extends Component {
             <Modal.Header closeButton>
               <Modal.Title>Air Thoughts</Modal.Title>
             </Modal.Header>
+            <ResponsiveEmbed aspectRatio="16by9">
+
             <img src={airthoughts} style={{width:498}}/>
+            </ResponsiveEmbed>
+
             <Modal.Body>
               <p><b>HackTX 2018 Project:</b> Worked on a team of five to create a web application that
               identifies and leverages customer sentiments for American Airlines customers in real time.
@@ -338,8 +342,10 @@ export default class Projects extends Component {
             <Modal.Header closeButton>
               <Modal.Title>WiFi Piano</Modal.Title>
             </Modal.Header>
-            <iframe width="498" height="300" src="https://www.youtube.com/embed/DqZtjWEB5SY"
-            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <ResponsiveEmbed aspectRatio="16by9">
+              <iframe width="498" height="300" src="https://www.youtube.com/embed/DqZtjWEB5SY"
+              frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            </ResponsiveEmbed>
             <Modal.Body>
               <p><b>EE 445L Final Project:</b> Worked with a partner to create an
               WiFi piano that would allows users to play notes and chords on the piano.
@@ -373,8 +379,10 @@ export default class Projects extends Component {
             <Modal.Header closeButton>
               <Modal.Title>UT Bathroom Services</Modal.Title>
             </Modal.Header>
-            <iframe width="498" height="300" src="https://www.youtube.com/embed/q3W-MPyDkqY"
-            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <ResponsiveEmbed aspectRatio="16by9">
+              <iframe src="https://www.youtube.com/embed/q3W-MPyDkqY"
+              frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            </ResponsiveEmbed>
             <Modal.Body>
               <p><b>EE 461L Team Project:</b> Worked in a team of 4 to create an Android
               app that would allows users to find bathrooms and water fountains
@@ -417,7 +425,9 @@ export default class Projects extends Component {
             <Modal.Header closeButton>
               <Modal.Title>Mastermind Game</Modal.Title>
             </Modal.Header>
+            <ResponsiveEmbed aspectRatio="16by9">
             <img src={mastermind} style={{height:400}}/>
+            </ResponsiveEmbed>
             <Modal.Body>
               <p>Created Mastermind game using Java and JavaFX. Built off of text-based Mastermind
                game written for EE 422C assignment and added JavaFX elements.</p>
@@ -449,7 +459,9 @@ export default class Projects extends Component {
             <Modal.Header closeButton>
               <Modal.Title>Chat Room</Modal.Title>
             </Modal.Header>
+            <ResponsiveEmbed aspectRatio="16by9">
             <img src={chatprogram} style={{width:500}}/>
+            </ResponsiveEmbed>
             <Modal.Body>
               <p><b>EE 422C Partner Project:</b> Used socket programming, multithreading, JavaFX,
                and the observer design pattern in creating a Java chat program.
@@ -482,7 +494,7 @@ export default class Projects extends Component {
             <Modal.Header closeButton>
               <Modal.Title>Calculator</Modal.Title>
             </Modal.Header>
-            <img src={calculator} style={{width:250, marginLeft: 125}}/>
+            <img src={calculator}/>
             <Modal.Body>
               <p>Created a calculator using HTML, CSS, and Javascript to learn concepts </p>
               <Button
