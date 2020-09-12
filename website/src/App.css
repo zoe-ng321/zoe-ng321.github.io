@@ -71,7 +71,10 @@
   padding-bottom: 0px;
 }
 
-
 .navbutton:focus{
+  outline: 0;
+}
+
+.navtitle:focus{
   outline: 0;
 }
