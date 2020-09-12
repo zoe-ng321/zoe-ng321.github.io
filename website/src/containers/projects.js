@@ -16,6 +16,10 @@ import utbs from '../assets/utbs.png';
 import calculator from '../assets/Calculator.png';
 import calculatorcard from '../assets/Calculatorcard.png';
 import piano from '../assets/piano.png';
+import roommonitor from '../assets/roommonitor.png';
+import roommonitorcard from '../assets/roommonitorcard.png';
+import foodblog from '../assets/foodblog.png';
+import foodblogmodal from '../assets/foodblogmodal.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
@@ -34,7 +38,7 @@ export default class Projects extends Component {
   constructor(props, context){
     super(props, context);
     this.state = {
-      modalShow: Array(9).fill(false),
+      modalShow: Array(10).fill(false),
       imgCarousel: 0,
     }
     this.handleSelect = this.handleSelect.bind(this);
@@ -112,6 +116,23 @@ export default class Projects extends Component {
                       variant="primary"
                       style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
                       onClick={() => this.handleShow(2)}>
+                      Learn More
+                    </Button>
+                  </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4} style={{marginBottom: '2rem'}}>
+              <Card className='card'>
+                <Card.Img src={foodblog}/>
+                <Card.Body>
+                    <Card.Title>Zoe's Food Bytes</Card.Title>
+                    <Card.Text>
+                      Gatsby Food Blog
+                    </Card.Text>
+                    <Button
+                      variant="primary"
+                      style={{backgroundColor:'#8795FA', borderColor:'#8795FA', fontWeight:'bold'}}
+                      onClick={() => this.handleShow(10)}>
                       Learn More
                     </Button>
                   </Card.Body>
@@ -221,6 +242,7 @@ export default class Projects extends Component {
             </Col>
             <Col md={4} style={{marginBottom: '2rem'}}>
               <Card className='card'>
+                <Card.Img src={roommonitorcard}/>
                 <Card.Body>
                     <Card.Title>Room Availability Monitor</Card.Title>
                     <Card.Text>
@@ -257,13 +279,19 @@ export default class Projects extends Component {
                           </div>
                         </IconContext.Provider>}>
               <Carousel.Item>
-                <img src={sshome} style={{width:250, marginLeft: 125}}/>
+                <ResponsiveEmbed aspectRatio="4by3">
+                  <img src={sshome} alttext='home screen with percentage circle'/>
+                </ResponsiveEmbed>
               </Carousel.Item>
               <Carousel.Item>
-                <img src={sschart} style={{width:250, marginLeft: 125}}/>
+                <ResponsiveEmbed aspectRatio="4by3">
+                  <img src={sschart} alttext='bar graph'/>
+                </ResponsiveEmbed>
               </Carousel.Item>
               <Carousel.Item>
-                <img src={stellarspine} style={{width:250, marginLeft: 125}}/>
+                <ResponsiveEmbed aspectRatio="4by3">
+                  <img src={stellarspine} alttext='constellations'/>
+                </ResponsiveEmbed>
               </Carousel.Item>
             </Carousel>
             <Modal.Body>
@@ -301,8 +329,7 @@ export default class Projects extends Component {
               <Modal.Title>Air Thoughts</Modal.Title>
             </Modal.Header>
             <ResponsiveEmbed aspectRatio="16by9">
-
-            <img src={airthoughts} style={{width:498}}/>
+              <img src={airthoughts} alttext="bar graph"/>
             </ResponsiveEmbed>
 
             <Modal.Body>
@@ -375,6 +402,60 @@ export default class Projects extends Component {
             </Modal.Footer>
           </Modal>
 
+          <Modal show={this.state.modalShow[10]} onHide={() => this.handleClose(10)} className='modal'>
+            <Modal.Header closeButton>
+              <Modal.Title>Zoe's Food Bytes</Modal.Title>
+            </Modal.Header>
+            <ResponsiveEmbed aspectRatio="16by9">
+              <img src={foodblogmodal} alttext="food blog hero"/>
+            </ResponsiveEmbed>
+            <Modal.Body>
+              <p><b>Personal Project:</b> Created a food blog using Gatsby. I enjoy cooking and eating food,
+              so I thought it would be fun to write about my adventures. In addition, I've been wanting to try out Gatsby,
+              so it was a perfect storm.</p>
+              <p>I used a Gatsby starter template allowing me to quickly start to develop without much setup.
+              I deployed my blog on Netlify which offers continuous deployment and Github integration. In addition,
+              I use Netlify CMS to add blog posts and modify any content on the site.</p>
+              <p> I am slowly adding blog posts about my food experiments and favorite spots,
+              so check it out <a href="https://zoe-food-bytes.netlify.app/">here!</a></p>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                React
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Gatsby
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Netlify
+              </Button>
+              <Button
+                variant="outline-secondary"
+                disabled={true}
+                className='skilltag'
+                style={{color:'DARKSLATEBLUE', fontWeight:'bold'}}>
+                Netlify CMS
+              </Button>
+              <br/><br/>
+              <a href="https://github.com/zoe-ng321/foodBlog">Github Repository</a><br/>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={() => this.handleClose(2)}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
+
           <Modal show={this.state.modalShow[3]} onHide={() => this.handleClose(3)} className='modal'>
             <Modal.Header closeButton>
               <Modal.Title>UT Bathroom Services</Modal.Title>
@@ -425,8 +506,8 @@ export default class Projects extends Component {
             <Modal.Header closeButton>
               <Modal.Title>Mastermind Game</Modal.Title>
             </Modal.Header>
-            <ResponsiveEmbed aspectRatio="16by9">
-            <img src={mastermind} style={{height:400}}/>
+            <ResponsiveEmbed aspectRatio="4by3">
+            <img src={mastermind} alttext="mastermind game"/>
             </ResponsiveEmbed>
             <Modal.Body>
               <p>Created Mastermind game using Java and JavaFX. Built off of text-based Mastermind
@@ -460,7 +541,7 @@ export default class Projects extends Component {
               <Modal.Title>Chat Room</Modal.Title>
             </Modal.Header>
             <ResponsiveEmbed aspectRatio="16by9">
-            <img src={chatprogram} style={{width:500}}/>
+            <img src={chatprogram} alttext="chat program"/>
             </ResponsiveEmbed>
             <Modal.Body>
               <p><b>EE 422C Partner Project:</b> Used socket programming, multithreading, JavaFX,
@@ -494,7 +575,9 @@ export default class Projects extends Component {
             <Modal.Header closeButton>
               <Modal.Title>Calculator</Modal.Title>
             </Modal.Header>
-            <img src={calculator}/>
+            <ResponsiveEmbed aspectRatio="16by9">
+              <img src={calculator} alttext="calculator"/>
+            </ResponsiveEmbed>
             <Modal.Body>
               <p>Created a calculator using HTML, CSS, and Javascript to learn concepts </p>
               <Button
@@ -532,7 +615,9 @@ export default class Projects extends Component {
             <Modal.Header closeButton>
               <Modal.Title>Hangman Game</Modal.Title>
             </Modal.Header>
-            <img src={hangman} style={{width:500}}/>
+            <ResponsiveEmbed aspectRatio="4by3">
+              <img src={hangman} alttext="hangman text"/>
+            </ResponsiveEmbed>
             <Modal.Body>
               <p>Created a Hangman game using Python. </p>
               <Button
@@ -556,7 +641,9 @@ export default class Projects extends Component {
             <Modal.Header closeButton>
               <Modal.Title>Nim Game</Modal.Title>
             </Modal.Header>
-            <img src={nim} style={{width:500}}/>
+            <ResponsiveEmbed aspectRatio="16by9">
+              <img src={nim} alttext="nim game" />
+            </ResponsiveEmbed>
     				<Modal.Body>
               <p>Created a Nim game using Java and JavaFX. </p>
               <Button
@@ -587,6 +674,9 @@ export default class Projects extends Component {
             <Modal.Header closeButton>
               <Modal.Title>Room Availability Monitor</Modal.Title>
             </Modal.Header>
+            <ResponsiveEmbed aspectRatio="16by9">
+              <img src={roommonitor} alttext="wires and breadboard"/>
+            </ResponsiveEmbed>
             <Modal.Body>
               <p>Created an Internet of Things room monitor that shows the availability of conference and phone rooms.
       				The hardware used includes the ESP8266 WiFi module and a motion sensor. The website consists of
