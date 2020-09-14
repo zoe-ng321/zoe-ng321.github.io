@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "477a8d66082937621094b6b7c5e0989c",
+    "revision": "467fa18ce7d3b66800cf3a97e702faab",
     "url": "/index.html"
   },
   {
-    "revision": "d4e62ff828bb1b636e84",
-    "url": "/static/css/2.224294f0.chunk.css"
+    "revision": "7843e9ad03ac61b70f01",
+    "url": "/static/css/2.ab965100.chunk.css"
   },
   {
-    "revision": "51ba4a40b37311ff3a35",
-    "url": "/static/css/main.0d127f23.chunk.css"
+    "revision": "bc331a161e4568c0fa3b",
+    "url": "/static/css/main.1f6294a2.chunk.css"
   },
   {
-    "revision": "d4e62ff828bb1b636e84",
-    "url": "/static/js/2.c0823a82.chunk.js"
+    "revision": "7843e9ad03ac61b70f01",
+    "url": "/static/js/2.636aeed6.chunk.js"
   },
   {
     "revision": "92ba8acd1e9fee970a07db04009ca21d",
-    "url": "/static/js/2.c0823a82.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.636aeed6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "51ba4a40b37311ff3a35",
-    "url": "/static/js/main.5adced3f.chunk.js"
+    "revision": "bc331a161e4568c0fa3b",
+    "url": "/static/js/main.5f389954.chunk.js"
   },
   {
     "revision": "c815442ab336b747f527",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/AirThoughtscard.8390770c.png"
   },
   {
-    "revision": "aaacd72552a21aa10b676ad158ad4c24",
-    "url": "/static/media/Calculator.aaacd725.png"
+    "revision": "2f09e1d72389f758cf65c04ee5fd10f7",
+    "url": "/static/media/Calculator.2f09e1d7.png"
   },
   {
     "revision": "82b401fee4f8e67afba0a29c2193b510",
@@ -72,20 +72,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Nim.ca20e599.png"
   },
   {
+    "revision": "6502f5d4e9f5bc0ee7bcb0f65b4dc0d5",
+    "url": "/static/media/foodblog.6502f5d4.png"
+  },
+  {
+    "revision": "aca8c2c35d5ab6d11cb5780660744c17",
+    "url": "/static/media/foodblogmodal.aca8c2c3.png"
+  },
+  {
     "revision": "af516a3ff0ddc888c4e57b475ea42f62",
     "url": "/static/media/piano.af516a3f.png"
   },
   {
-    "revision": "0726c64239328d43c460518521f1b320",
-    "url": "/static/media/sschart.0726c642.png"
+    "revision": "edca0d2542ba42f660162cf44c5d8673",
+    "url": "/static/media/roommonitor.edca0d25.png"
   },
   {
-    "revision": "237fe9ee989dca33c90b40a3c1e9436e",
-    "url": "/static/media/sshome.237fe9ee.png"
+    "revision": "7bc398600e64475c807406761bac16ee",
+    "url": "/static/media/roommonitorcard.7bc39860.png"
   },
   {
-    "revision": "cbb3a349d047a85f98ce90effd8e573c",
-    "url": "/static/media/stellarspine.cbb3a349.png"
+    "revision": "a4fa421cc68e3e514ad1ccf78e1de854",
+    "url": "/static/media/sschart.a4fa421c.png"
+  },
+  {
+    "revision": "ed8c16d567e24d0a897f43b0840f39e7",
+    "url": "/static/media/sshome.ed8c16d5.png"
+  },
+  {
+    "revision": "b003daed4291a9b9696b1aadcc5aaa93",
+    "url": "/static/media/stellarspine.b003daed.png"
   },
   {
     "revision": "13a44de22b9a46fdcb8dd16aa5e55da1",
