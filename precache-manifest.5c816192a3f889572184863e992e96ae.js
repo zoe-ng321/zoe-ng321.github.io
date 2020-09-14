@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "467fa18ce7d3b66800cf3a97e702faab",
+    "revision": "d5d072d70ca716160701657d71d8a546",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.ab965100.chunk.css"
   },
   {
-    "revision": "bc331a161e4568c0fa3b",
+    "revision": "3450541b364f38a8de8e",
     "url": "/static/css/main.1f6294a2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.636aeed6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc331a161e4568c0fa3b",
-    "url": "/static/js/main.5f389954.chunk.js"
+    "revision": "3450541b364f38a8de8e",
+    "url": "/static/js/main.030a9e6c.chunk.js"
   },
   {
     "revision": "c815442ab336b747f527",
@@ -40,12 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Calculator.2f09e1d7.png"
   },
   {
-    "revision": "82b401fee4f8e67afba0a29c2193b510",
-    "url": "/static/media/Calculatorcard.82b401fe.png"
+    "revision": "8f2c694d18481decc0df83bcad151745",
+    "url": "/static/media/Calculatorcard.8f2c694d.png"
   },
   {
-    "revision": "27dc34a0558c1da5a4fcc8ea08eebdc2",
-    "url": "/static/media/ChatProgram.27dc34a0.png"
+    "revision": "94330ead337f6f7f9fcd3c899ebad834",
+    "url": "/static/media/ChatProgram.94330ead.png"
   },
   {
     "revision": "4a57324adc78789bf04660482308e328",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Hangman.c61f4401.png"
   },
   {
-    "revision": "075f19ef5560e28a3039fb9f46e26738",
-    "url": "/static/media/Hangmancard.075f19ef.png"
+    "revision": "e24373da1a447a1c51d820e12ea7fd35",
+    "url": "/static/media/Hangmancard.e24373da.png"
   },
   {
     "revision": "42ecf29c8602a463ffa22467bf34fc5b",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Mastermindcard.9a352feb.png"
   },
   {
-    "revision": "ca20e5994c707dff3eba134b8288952f",
-    "url": "/static/media/Nim.ca20e599.png"
+    "revision": "c2121e971af050edb17e7089f5a5bd3c",
+    "url": "/static/media/Nim.c2121e97.png"
   },
   {
     "revision": "6502f5d4e9f5bc0ee7bcb0f65b4dc0d5",
