@@ -21,7 +21,7 @@ export default class Experience extends Component {
         <Timeline lineColor={'#ddd'}>
           <TimelineItem
             key="001"
-            dateText="Jun 2019 – Present"
+            dateText="Jun 19 – Present"
             style={{ color: '#FA8795' , zIndex: 2}}
             dateInnerStyle={{ background: '#FA8795', fontWeight: 'bold'}}>
             <h3>Software Engineer, Visa</h3>
@@ -58,7 +58,7 @@ export default class Experience extends Component {
           </TimelineItem>
           <TimelineItem
             key="002"
-            dateText="May 2018 - Aug 2018"
+            dateText="May 18 - Aug 18"
             style={{ color: '#8795FA' , zIndex: 2}}
             dateInnerStyle={{ background: '#8795FA', fontWeight: 'bold'}}>
             <h3>Software Engineering Intern, IBM</h3>
@@ -108,7 +108,7 @@ export default class Experience extends Component {
           </TimelineItem>
           <TimelineItem
             key="003"
-            dateText="Jun 2017 - Aug 2017"
+            dateText="Jun 17 - Aug 17"
             style={{ color: '#6BC3FA' , zIndex: 2}}
             dateInnerStyle={{ background: '#6BC3FA', fontWeight: 'bold'}}>
             <h3>Information Technology Intern, IBM</h3>
