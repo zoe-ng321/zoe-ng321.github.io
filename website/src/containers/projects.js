@@ -413,7 +413,7 @@ export default class Projects extends Component {
               <p><b>Personal Project:</b> Created a food blog using Gatsby. I enjoy cooking and eating food,
               so I thought it would be fun to write about my adventures. In addition, I've been wanting to try out Gatsby,
               so it was a perfect storm.</p>
-              <p>I used a Gatsby starter template allowing me to quickly start to develop without much setup.
+              <p>I used a Gatsby starter template allowing me to quickly develop the blog. Then
               I deployed my blog on Netlify which offers continuous deployment and Github integration. In addition,
               I use Netlify CMS to add blog posts and modify any content on the site.</p>
               <p> I am slowly adding blog posts about my food experiments and favorite spots,
